@@ -1,10 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta charset="utf-8">
 	<title>Hayden Lane</title>
-	<link href="css/style.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
-	<h1>This is a test</h1>
+<div class="container-fluid">
+  <div class="header">
+    <nav class="navbar navbar-toggleable navbar-light bg-faded">
+      <a class="navbar-brand" href="#">Hayden Lane</a>
+      
+      <div class="navbar-collapse navbar-nav" id="navbarSupportedContent">
+        <a class="nav-item nav-link" href="#home">Home</a>
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+  <div class="main-content">
+    <div class="text-center" id="home">
+      <figure class="figure">
+        <img class="figure-img img-fluid rounded" src="http://res.cloudinary.com/laneit/image/upload/v1490758615/Hayden_n8d2ta.jpg" alt="Hayden Lane">
+      </figure>
+      <h1>Hayden Lane</h1>
+      <p>Thank you for visiting my site! Please scroll down to find out more about me and what I do.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a class="btn btn-secondary" href="https://twitter.com/haydendlane" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+        <li class="list-inline-item"><a class="btn btn-secondary" href="https://github.com/LaneIT" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
+        <li class="list-inline-item"><a class="btn btn-secondary" href="https://www.linkedin.com/in/hayden-lane-1488508a/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+        <li class="list-inline-item"><a class="btn btn-secondary" href="https://www.freecodecamp.com/laneit" target="_blank"><i class="fa fa-free-code-camp"></i> FreeCodeCamp</a></li>
+      </ul>
+    </div>
+    <div class="text-center" id="about">
+      <h2>About</h2>
+      <p>I am Hayden Lane. I am a Christian, husband, father, IT professional, and aspiring web developer. All that I do I want to do excellently. However, that means that I don't spread myself too thin and do <em>everything.</em></p>
+      <p>As you look through the history of my past work, my hope is that you see my passion for building something with my own hands.</p>
+    </div>
+    <div class="text-center" id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="http://lorempixel.com/400/200/nature" alt="Placeholder image">
+            <div class="card-block">
+              <h3 class="card-title">Project 1</h3>
+              <p class="card-text">This is a placeholder for my project. I'm looking forward to seeing what will take its place!</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="http://lorempixel.com/400/200/sports" alt="Placeholder image">
+            <div class="card-block">
+              <h3 class="card-title">Project 2</h3>
+              <p class="card-text">This is a placeholder for my project. I'm looking forward to seeing what will take its place!</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="http://lorempixel.com/400/200/people" alt="Placeholder image">
+            <div class="card-block">
+              <h3 class="card-title">Project 3</h3>
+              <p class="card-text">This is a placeholder for my project. I'm looking forward to seeing what will take its place!</p>
+              <a href="#" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center" id="contact">
+      <h2>Contact</h2>
+      <p>If your tastes line up with mine, please contact me! I would love to work alongside you and make your vision become a reality.</p>
+      <a class="btn btn-primary email" href="mailto:hayden@laneitconsulting.com?Subject=Correspondence%20From%20Website" target="_blank"><i class="fa fa-envelope"></i> Email Me</a>
+      <p>Feel free to connect with me on social media as well!</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a class="btn btn-primary" href="https://twitter.com/haydendlane" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+        <li class="list-inline-item"><a class="btn btn-primary" href="https://github.com/LaneIT" target="_blank"><i class="fa fa-github"></i> GitHub</a></li>
+        <li class="list-inline-item"><a class="btn btn-primary" href="https://www.linkedin.com/in/hayden-lane-1488508a/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+        <li class="list-inline-item"><a class="btn btn-primary" href="https://www.freecodecamp.com/laneit" target="_blank"><i class="fa fa-free-code-camp"></i> FreeCodeCamp</a></li>
+      </ul>
+    </div>
+  </div>
+  <a id="back-to-top" href="#" class="btn btn-primary btn-md back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="fa fa-chevron-up"></span></a>
+</div>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
